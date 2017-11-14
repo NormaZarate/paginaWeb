@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bg_a{
+	background-color:#92278f;
+	color:#FFF;
+}
+
+.bg_b{
+	/*background-color:rgba(255,255,255,0.77);*/
+	background-color:#03C;
+	color:#92278f;
+}
+
+header menu a:hover{
+	background-color:#B647B2;
+}
+
+.color_icono{
+	color:#FFF;
+}
+.bg_blancoAlpha{
+	background-color:rgba(255,255,255,0.77);	
+	color:#92278f;
+}

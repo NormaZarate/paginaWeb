@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Upright:400,700|Playfair+Display+SC|Ruluko");
+@import url('iconNorma/style.css');
+@import url('comun.css');
+@import url('color.css');
+@import url('size.css');
+
+.galleria{ max-width:100%x; height: 100vh}
+.galleria-theme-classic .galleria-stage{
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.galleria-theme-classic .galleria-thumbnails-container{
+	display:none;
+}
+
+.galleria-thumbnails{
+	width: 100% !important;
+	text-align:center;
+}
+
+.contenedor{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+body,html{
+	min-width:100%;
+	min-height:100%;
+}
+
+body{
+	background-color:#FFF;
+}
+
+p{
+	max-width:480px;
+	padding-bottom:30px;
+	line-height:112%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.frase{
+	position:absolute;
+	bottom:3%;
+	padding:10px;
+	color:#92278f;
+	z-index:2;
+	background-color:rgba(255,255,255,0.77);
+	width:100%;
+	text-align:center;
+	font-weight:700;
+}
+
+.porQueNosotros{
+	text-align:center;
+	padding-top:3%;
+	
+
+}
+.porQueNosotros h1{
+	padding:15px;	
+}
+h1{
+	font-family:"playfair-display", regular;
+	font-weight:400;
+	font-size:26px;
+	margin-bottom:30px;
+	padding-top:60px;
+}
+
+h2{
+	font-family:"playfair-display", regular;
+	font-weight:400;
+	font-size:26px;
+	padding-top:12px;
+	padding-bottom:5px;
+}
+
+h3{
+	font-family:"playfair-display", regular;
+	font-weight:400;
+	font-size:26px;
+	margin-bottom:15px;
+	padding-top:20px;
+}
+
+.font_PlayfairDisplaySC{
+	font-family:"playfair-display", regular;
+	font-weight:400;
+}
+
+.font_CormorantUpright{
+	font-family:"cormorant upright", regular;
+	font-weight:400,700;
+}
+
+.font_Ruluko{
+	font-family:"ruluko", regular;
+	font-weight:400;
+}
+
+.contenedor{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+.logo{
+	padding-top:20px;
+	padding-bottom:10px;
+	text-align:center;
+}
+.logo img{
+	width:100%;
+	max-width:500px;	
+}
+
+header, .menuburguer{
+	width:100%;
+	z-index:3;
+}
+header.absolute{
+	position:absolute;
+	top:215px;
+	left:0px;		
+}
+header.fixed{
+	position:fixed;
+	top:0px;
+	left:0px;		
+}
+header menu, .menuburguer{
+	font-size:21px;
+	text-decoration:none;
+	text-align:center;
+	
+}
+
+header menu a{
+	display:inline-block;
+	padding-top:1.8vh;
+	padding-bottom:1.8vh;
+	padding-right:5%;
+	padding-left:5%;
+}
+
+.maxWidth{
+	max-width:1024px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.inicio{
+	background-size:1000px;
+}
+
+.nosotros{
+	min-height:0px !important;
+	padding-top: calc(2% + 53px);
+	background-size:10% auto !important;
+	background-position:center !important;
+	background-repeat:repeat !important;
+	background-image:url(img/patron.jpg);
+	
+	padding-bottom:6vh;
+}
+
+.nosotros .maxWidth{
+	max-width:936px;
+}
+
+.productos{
+	font-size:0;
+	padding-bottom:0%;
+	
+	min-height:0px !important;
+}
+
+.productos .producto{
+	height:220px;
+	width:220px;
+	border-radius:20px;
+	border:5px solid #92278f;
+	margin-left:1.5%;
+	margin-right:1.5%;
+	margin-bottom:1%;
+	margin-top:5%;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+	background-position:center;
+	cursor:pointer;
+	padding-bottom:3%;
+}
+
+.productos .producto:hover{
+	background-size:auto 110%;
+}
+.linea{
+	height:8px;
+	background-color:#92278f;
+	width:100%;
+	margin-top:40px;
+}
+
+.contacto{
+	
+	padding-top:4%;
+	padding-bottom:4%;
+	padding-left:2vw;
+	padding-right:2vw;
+	text-align:center;
+	vertical-align:middle;
+	font-size:16px;
+	background-image:url(img/patron.jpg);
+	background-size:5% auto !important;
+	background-position:center !important;
+	background-repeat:repeat !important;
+	min-height:0px !important;
+}
+
+.contacto .cuadro{
+	max-width:936px;
+	width:100%;
+}
+
+.contacto p{
+	padding-bottom:8px;
+}
+
+.apartadoAl100{
+	position:relative;
+	min-height:100%;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.menuburguer{
+	display:none;
+	padding-top:2.4vh;
+	padding-bottom:2.4vh;
+	cursor:pointer;
+	box-shadow:#000000 3px 0px 4px;
+}
+.menuburguer.absolute{
+	position:absolute;
+	top:169px;
+	left:0px;		
+}
+.menuburguer.fixed{
+	position:fixed;
+	top:0px;
+	left:0px;		
+}

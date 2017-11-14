@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+.size11px{
+	font-size:11px !important;	
+}
+.size12px{
+	font-size:12px !important;	
+}
+.size13px{
+	font-size:13px !important;	
+}
+.size14px{
+	font-size:14px !important;	
+}
+.size15px{
+	font-size:15px !important;	
+}
+.size16px{
+	font-size:16px !important;		
+}
+.size16px.parrafo{
+	line-height:24px;	
+}
+.size18px{
+	font-size:18px !important;		
+}
+.size20px{
+	font-size:20px !important;	
+}
+.size22px{
+	font-size:22px !important;		
+}
+.size24px{
+	font-size:24px !important;		
+}
+.size28px{
+	font-size:28px !important;	
+}
+.size30px{
+	font-size:30px !important;	
+}
+.size32px{
+	font-size:32px !important;	
+}
+.size34px{
+	font-size:34px !important;	
+}
+.size38px{
+	font-size:38px !important;	
+}
+.size42px{
+	font-size:42px !important;	
+}
+.underline{
+	text-decoration:underline !important;		
+}
+.borderThin{
+	border-width:1px;	
+}
+.borderMed{
+	border-width:2px;	
+}
